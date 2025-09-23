@@ -1,2 +1,1 @@
-# cs-weather-fetcher
-Fetch weather data with Python requests
+# CS Weather Fetcher\nFetches weather data using Python requests. Run: python weather.py
