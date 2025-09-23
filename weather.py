@@ -1,7 +1,8 @@
 import requests
 
 API_KEY = "f5e2ffc80353b26127bc7544f657e776"  
-CITY = "Nairobi"
+
+CITY = input("Enter a city (e.g., Nairobi): ").strip()
 URL = f"http://api.openweathermap.org/data/2.5/weather?q={CITY}&appid={API_KEY}&units=metric"
 
 response = requests.get(URL)
@@ -14,4 +15,4 @@ if response.status_code == 200:
     print(f"Weather: {description}")
 else:
     print(f"Error fetching weather data. Status code: {response.status_code}")
-    print(f"Response: {response.text}")  # Debug: Shows API error details
+    print(f"Response: {response.text}")
