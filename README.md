@@ -1,1 +1,4 @@
-# CS Weather Fetcher\nFetches weather data using Python requests. Run: python weather.py
+# CS Weather Fetcher
+Fetches real-time weather using Python + requests and OpenWeatherMap API.
+
+![alt text](image.png)
