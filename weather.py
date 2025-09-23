@@ -1,6 +1,6 @@
 import requests
 
-API_KEY = "e1c4b9cb1ac19c5f7d751eef5c394bba"  
+API_KEY = "f5e2ffc80353b26127bc7544f657e776"  
 CITY = "Nairobi"
 URL = f"http://api.openweathermap.org/data/2.5/weather?q={CITY}&appid={API_KEY}&units=metric"
 
